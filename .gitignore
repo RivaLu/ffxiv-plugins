@@ -1,0 +1,10 @@
+# Build output
+bin/
+obj/
+
+# Editor / OS clutter
+.vs/
+.idea/
+*.user
+*.suo
+Thumbs.db

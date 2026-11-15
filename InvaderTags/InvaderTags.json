@@ -1,0 +1,8 @@
+{
+  "Author": "RivaLu",
+  "Name": "Invader Tags",
+  "Punchline": "Renames the «Voyager» tag to «Invader».",
+  "Description": "Client-side only: any nameplate whose free company tag reads «Voyager» is displayed as «Invader» instead. Nothing is sent to the server.",
+  "ApplicableVersion": "any",
+  "Tags": [ "nameplate", "cosmetic" ]
+}
