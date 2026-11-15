@@ -11,12 +11,16 @@ Small client-side [Dalamud](https://github.com/goatcorp/Dalamud) plugins for Fin
 Requires the .NET 10 SDK and XIVLauncher with Dalamud installed.
 
 ```
-dotnet build InvaderTags/InvaderTags.csproj -c Release
+dotnet build ffxiv-plugins.slnx -c Release
 ```
 
-The plugin is built to `InvaderTags/bin/Release/InvaderTags.dll`.
+This builds every plugin. Each one ends up in its own `bin/Release` folder, e.g. `InvaderTags/bin/Release/InvaderTags.dll`. You can also open `ffxiv-plugins.slnx` in Visual Studio or Rider.
 
 ## Loading in-game
 
 1. `/xlsettings` → **Experimental** → add the path to the built `.dll` under **Dev Plugin Locations** → Save.
 2. `/xlplugins` → **Dev Tools** → **Installed Dev Plugins** → turn the plugin on.
+
+## License
+
+[AGPL-3.0](LICENSE)
